@@ -1,26 +1,26 @@
 {
   "CLONE_UUID": "localhost:5100",
   "LIB_ASPS": {
-    "ssl_sig_aspid": "/home/w732t351/repos/asp-libs/attestation_asps/test_asp.out",
-    "kim_aspid": "/home/w732t351/repos/asp-libs/attestation_asps/test_asp.out",
-    "attest_id": "/home/w732t351/repos/asp-libs/attestation_asps/test_asp.out",
-    "appraise_id": "/home/w732t351/repos/asp-libs/attestation_asps/test_asp.out",
-    "certificate_id": "/home/w732t351/repos/asp-libs/attestation_asps/test_asp.out"
+    "ssl_sig_aspid": "/Users/adampetz/Documents/Summer_2024/asp-libs/attestation_asps/test_asp.out",
+    "kim_aspid": "/Users/adampetz/Documents/Summer_2024/asp-libs/attestation_asps/test_asp.out",
+    "attest_id": "/Users/adampetz/Documents/Summer_2024/asp-libs/attestation_asps/test_asp.out",
+    "appraise_id": "/Users/adampetz/Documents/Summer_2024/asp-libs/attestation_asps/test_asp.out",
+    "certificate_id": "/Users/adampetz/Documents/Summer_2024/asp-libs/attestation_asps/test_asp.out"
   },
   "LIB_APPR_ASPS": [
     [
       "P1",
       "ssl_sig_aspid",
-      "/home/w732t351/repos/asp-libs/attestation_asps/test_asp.out"
+      "/Users/adampetz/Documents/Summer_2024/asp-libs/attestation_asps/test_asp.out"
     ],
     [
       "P2",
       "ssl_sig_aspid",
-      "/home/w732t351/repos/asp-libs/attestation_asps/test_asp.out"
+      "/Users/adampetz/Documents/Summer_2024/asp-libs/attestation_asps/test_asp.out"
     ]
   ],
   "LIB_PLCS": {
-    "P0": "localhost:5000",
+    "P0": "localhost:5050",
     "P1": "localhost:5001",
     "P2": "localhost:5002",
     "P3": "localhost:5003",

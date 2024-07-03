@@ -89,7 +89,7 @@ if [[ "$PWD" == */am-cakeml/tests ]]; then
   done
   
   # Now send the request, on the very last window
-  tmux send-keys -t $I "sleep 1 && $TESTS_DIR/send_term_req.sh -h localhost -p 5000 -f $TERM_FILE" Enter
+  tmux send-keys -t $I "sleep 1 && $TESTS_DIR/send_term_req.sh -h localhost -p 5050 -f $TERM_FILE" Enter
 
   tmux attach-session -d -t ServerProcess
 

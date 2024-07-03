@@ -28,5 +28,8 @@ CMakeCache.txt
 
 tests/DemoFiles/Generated
 
+tests/DemoFiles/*
+apps/ManifestCompiler/DemoFiles/*
+
 # Backup files
 *backup.*

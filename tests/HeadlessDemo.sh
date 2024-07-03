@@ -104,7 +104,7 @@ if [[ "$PWD" == */am-cakeml/tests ]]; then
   
   # Now send the request, on the very last window
   sleep 1 
-  $TESTS_DIR/send_term_req.sh -h localhost -p 5000 -f $TERM_FILE > $GENERATED/output.out
+  $TESTS_DIR/send_term_req.sh -h localhost -p 5050 -f $TERM_FILE > $GENERATED/output.out
   # We need this to be the last line so that the exit code is whether or not we found success
   grep "\"SUCCESS\":true" $GENERATED/output.out
 else
