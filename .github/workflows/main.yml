@@ -91,7 +91,14 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Test Build
+      - name: Test All Build
+        run: |
+          mkdir -p ${{ github.workspace }}/build
+          cd ${{ github.workspace }}/build
+          cmake ..
+          make all
+
+      - name: Test Flex Mechanisms
         run: |
           cd ${{ github.workspace }}/tests
           export ASP_BIN=${{ env.ASP_LIBS_PATH }}/bin
